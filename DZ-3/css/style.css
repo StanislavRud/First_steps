@@ -1,0 +1,161 @@
+.menu a {
+    text-decoration: none;
+    color: #ff0303;
+    margin: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.headerlogo{
+    max-width: 300px;
+    margin: 0 auto;
+    opacity: 0.8;
+    position: fixed;
+    top: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+body {
+    font-size: 14px;
+    font-family: serif;
+    background-image: url(../pictures/mir.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+ul  {
+    background: aquamarine;
+    background-color: rgba(255, 255, 255, 0.5) ;
+    height: 40px;
+    margin: 2px 0;
+    /* padding: 15px; */
+    border: 20px;
+    position: fixed;
+    top: 205px;
+    right: 0px;
+    left: 0px;
+
+
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 auto;
+
+}
+
+.menu a:hover{
+     background: darkgreen;
+     color: white;
+     font-size: 150%;
+     border: 20px;
+     margin: 0;
+     padding: 10px;
+ }
+
+.menu .active{
+    background: #62a6ff;
+    color: white;
+    font-size: 150%;
+    border: 20px;
+    margin: 0;
+    padding: 10px;
+}
+
+.onas h1 {
+    margin-left: 100px;
+    margin-top: 280px;
+}
+
+.pohodi{
+    margin-top: 250px;
+    text-align: center;
+
+}
+
+.pohodi p{
+    background-color: rgba(255, 214, 97, 0.8);
+    text-align: center;
+    max-width: 300px;
+    margin: 20px auto;
+    font-size: 20px;
+    margin-bottom: 50px;
+
+}
+
+.pohodi img{
+    border: 2px solid aqua;
+    box-shadow: 20px 15px 10px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.pohodi img:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.onas p{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.5) ;
+    max-width: 470px;
+    padding: 5px
+
+}
+
+footer {
+    /*position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: rgba(57, 181, 74, 0.78); /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+
+}
+
+
+.news {
+    margin-top: 250px;
+}
+
+.news h1{
+    margin-left: 80px;
+}
+
+.news p {
+    margin-bottom: 500px;
+    background-color: rgba(255, 214, 97, 0.8);
+    border-left-width: 50px;
+    padding-left: 20px;
+    max-width: 360px;
+}
+
+.pohodirazn{
+    margin-top: 250px;
+}
+
+.pohodirazn h1{
+    margin-left: 50px;
+}
+
+.pohodirazn p{
+    margin-left: 80px;
+    background-color: rgba(255, 214, 97, 0.8);
+    border-left-width: 50px;
+    padding-left: 20px;
+    max-width: 360px;
+}
+
+.pohodirazn img{
+    margin-bottom: 220px;
+    margin-left: 35px;
+}

@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+
+}
+
+
+header {
+    background-color: #f46262;
+}
+
+.header_menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 60px;
+}
+
+.header_menu img {
+    max-width: 140px;
+}
+
+.header_menu ul {
+    float:right;
+    margin: 0;
+
+}
+.header_menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px 30px;
+    color: white;
+}
+
+.header_menu .active {
+    background: black;
+    color: white;
+    font-size: 120%;
+    border: 15px;
+    margin: 0;
+    padding: 10px;
+}
+
+
+.welcome{
+    background-color: #eb504e;
+    margin: 0 auto;
+}
+.welcome_cont {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+.welcome_cont h1{
+    font-size: 50px;
+    font-family: 'Comfortaa', cursive;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.welcome_cont p {
+    font-size: 10px;
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 10px;
+}
+
+.smart_creative {
+    background-color: #232323;
+    margin: 0 auto;
+
+
+}
+.smart_creative_cont {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.smart_creative_cont p {
+    color: #eb504e;
+    font-family: 'Comfortaa', cursive;
+    font-size: 12px;
+}
+.smart_creative_cont2 {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: inline-block;
+   }
+
+.smart_creative_cont h2{
+    color: white;
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.smart_creative_cont h3{
+    color: white;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+.smart_creative_cont img {
+    border-radius: 100px;
+    transition: 2s;
+}
+
+.smart_creative_cont img:hover {
+    -webkit-transform: rotateZ(20deg);
+    -ms-transform: rotateZ(20deg);
+    transform: rotateZ(360deg);
+}
+
+
+
+.smart_creative_cont2 .multi_purpose {
+    float: left;
+    max-width: 200px;
+    margin-right: 25px;
+}
+
+.smart_creative_cont2 .flat_ui {
+    max-width: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+.smart_creative_cont2 .creative_design {
+    max-width: 200px;
+    float: left;
+}
+
+.talanted_experts {
+    background-color: #6cc372;
+    margin: 0;
+}
+
+.talanted_experts_cont {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.talanted_experts_cont h2{
+    color: white;
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.talanted_experts_cont p{
+    color: black;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.peoples {
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.follow_button" img{
+    width: 185px;
+
+}
+.peoples h3{
+    color: #6cc372;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.peoples p{
+    color: #eb504e;
+    font-size: 10px;
+    font-family: 'Comfortaa', cursive;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.Face {
+    border-radius: 100px;
+    border: 8px solid #6cc372;
+    margin: 20px 0 5px;
+    width: 180px;
+    text-align: block;
+}
+.Mahmoud {
+    float: left;
+    background-color: white;
+    width: 200px;
+    margin-right: 25px;
+    border-radius: 5px;
+}
+
+.Abd {
+    float: left;
+    background-color: white;
+    width: 200px;
+    margin-right: 25px;
+    border-radius: 5px;
+}
+
+.Mostafa {
+    float: left;
+    background-color: white;
+    width: 200px;
+    margin-right: 25px;
+    border-radius: 5px;
+}
+
+.Ahmed {
+    float: left;
+    background-color: white;
+    width: 200px;
+    border-radius: 5px;
+}
+footer {
+    background-color: #232323;
+   }
+
+.contacts {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
